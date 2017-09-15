@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+nav ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	margin-right: 30px;
+}
+
+nav ul span{
+	color: yellow;
+}
+
+nav{
+	background-color:rgb(2,144,139);
+	height: 18px;
+	padding: 18px;
+	left:0;
+	right:0;
+	z-index: 100;
+	position: fixed;
+}
+
+.li{
+	float: right;
+	font-size: 14px;
+}
+
+.alone{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.topheadings{
+	background-attachment: fixed;
+	background-image: url("../images/moon.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 760px;
+	background-position: fixed;
+}
+
+.txt{
+	text-align: center;
+	position: relative;
+	top: 200px;
+	color:white;
+	line-height: 50px;
+	font-size: 200%;
+}
+
+.txt h1{
+letter-spacing: 15px;
+}
+
+.txt h4{
+	font-size: 50%;
+	letter-spacing: 10px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: rgb(205,199,29);
+}
+
+button a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	border-style: none;
+	border-width:none;
+}
+
+.aboutme{
+	text-align: center;
+	margin: 50px;
+	line-height: 15px;
+}
+
+.aboutme h1{
+	color:rgb(195,101,1);
+	margin: 20px;
+}
+
+.aboutme p{
+	color: gray;
+	font-size: 12px;
+	word-spacing: 8px
+}
+
+.multipledivs > div{
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	line-height: 25px;
+	width: 200px;
+	height: 80;
+	padding: 50px;
+	border-right: 1px solid black;
+}
+
+.multipledivs h3{
+	margin-top: 20px;
+	color: gray;
+}
+
+.multipledivs p{
+	color: gray;
+}
+
+.multipledivs i h1 p{
+    text-align: center;
+}
+
+.lightbulb{
+	margin-left: 10px;
+}
+
+div.multipledivs i {
+	color: rgb(195,101,1);
+    font-size:2em;
+}
+
+.multipledivs{
+	text-align:center;
+	text-align: bottom;
+	margin: 50px;
+}
+
+.services h1{
+	color: rgb(195,101,1);
+	margin-bottom: 50px;
+}
+
+.services p{
+	line-height: 15px;
+	font-size: 12px;
+}
+.services {
+	margin: 20px;
+}
+
+.foursquares > div{
+	display: inline-block;
+	margin: 20px;
+	color: gray;
+}
+
+.foursquarestwo > div{
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 50px;
+	color: gray;
+}
+
+.beige i {
+  color: rgb(195,101,1);
+}
+
+.beige {
+	background-color: beige;
+	background-image: url('../images/service.png');
+	background-size: cover;
+}
+
+.all{
+	padding-top: 15px;
+	padding-bottom:10px;
+}
+
+.contact{
+	text-align: center;
+	margin: 70px;
+}
+
+.contact h1{
+	color: rgb(195,101,1);
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.contact p{
+	font-size: 12px;
+	color: gray;
+}
+
+.contactform{
+	padding: 20px;
+	text-align: center;
+	background-color: black;
+	color: gray;
+}
+
+.contactform input, textarea {
+	background-color: black;
+	border: none;
+	width: 50%;
+	height: 3%;
+	border-bottom: 1px solid gray;
+}
+
+.contactform input[type="text"]{
+	color:gray;
+}
+
+section h3{
+	color: gray;
+	margin-top: 25px;
+}
